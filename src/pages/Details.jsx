@@ -1,6 +1,10 @@
+// Css importieren
 import './Details.css'
+// useParams importieren
 import { useParams } from "react-router-dom";
+// Array importieren
 import blogData from "../components/Data";
+// Nav-Leiste importieren
 import Nav from "../components/Nav";
 
 const Details = () => {
