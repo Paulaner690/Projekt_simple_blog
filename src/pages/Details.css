@@ -1,0 +1,19 @@
+.detailsSection{
+    margin: 0 2rem;
+}
+
+.detailsImg{
+    border-radius: 10px;
+    height: 40rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+h4{
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}

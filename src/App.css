@@ -8,6 +8,7 @@
     max-width: 100%;
   }
   
+  /* NAV BAR */
   .navSection{
       height: 10vh;
       display: flex;
@@ -26,32 +27,38 @@
       margin-right:  2rem;
   }
   
-  /* HOME */
-  header{
-    width: 100vw;
-      height: 40vh;
-      background: url(./assets/imgs/homeHead.jpg) center no-repeat;
-      background-size: cover;
-  }
-  
-  .homeSection{
-      width: 30rem;
-      margin:  10rem;
-  }
-  
-  h2{
-      font-size: 3rem;
-      margin-bottom: 3rem;
-  }
+  /* BTN */
   .btn{
-      cursor: pointer;
-      background-color: white;
-      color: green;
-      border: 2px solid green;
-      border-radius: 5px;
-      font-size: 1rem;
-      font-weight: 600;
-      padding: 0.5rem 1rem;
-      text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+  .blogSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem;
   }
-  
+
+  h3{
+    margin: 1rem 0 3rem 0;
+  }
+
+  .blogImg{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .container{
+    border-radius: 10px;
+  }

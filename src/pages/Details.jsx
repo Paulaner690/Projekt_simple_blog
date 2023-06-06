@@ -1,3 +1,4 @@
+import './Details.css'
 import { useParams } from "react-router-dom";
 import blogData from "../components/Data";
 import Nav from "../components/Nav";
@@ -10,11 +11,11 @@ const Details = () => {
         <>
         <Nav />
         <section className="detailsSection">
-            <img src={element.img_url} alt={element.title} />
+            <img className='detailsImg' src={element.img_url} alt={element.title} />
             <h3>{element.title}</h3>
-            <p>{element.published_date}</p>
+            <h4>{element.published_date}</h4>
             <p>{element.description}</p>
-            <p>{element.author}</p>
+            <h5>{element.author}</h5>
         </section>
         </>
      );

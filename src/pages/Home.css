@@ -1,0 +1,17 @@
+  /* HOME */
+  header{
+      width: 100vw;
+      height: 40vh;
+      background: url(../assets/imgs/homeHead.jpg) center no-repeat;
+      background-size: cover;
+  }
+  
+  .homeSection{
+      width: 30rem;
+      margin:  10rem;
+  }
+  
+  h2{
+      font-size: 3rem;
+      margin-bottom: 3rem;
+  }

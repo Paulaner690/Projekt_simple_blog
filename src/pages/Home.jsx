@@ -1,3 +1,5 @@
+import './Home.css'
+import { NavLink } from "react-router-dom";
 import Nav from "../components/Nav";
 
 const Home = () => {
@@ -8,7 +10,7 @@ const Home = () => {
         </header>
         <div className="homeSection">
             <h2>Welcome to my simple Blog</h2>
-            <a className="btn" href="/blog">Go to articles</a>
+            <NavLink className="btn" to="/blog">Go to articles</NavLink>
         </div>
         </>
      );
